@@ -1,2 +1,1 @@
-web: gunicorn lods.wsgi
-#web:node server.js
+web: bundle exec lods server -p $PORT
