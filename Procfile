@@ -1,1 +1,1 @@
-web: gunicorn lods.work
+web: gunicorn lods.wsgi
