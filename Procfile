@@ -1,1 +1,1 @@
-web: bundle exec lods server -p $PORT
+web: gunicorn lods.work
